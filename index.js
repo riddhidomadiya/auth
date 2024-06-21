@@ -17,7 +17,7 @@ app.get('/user', async (req, res) => {
 });
 
 app.get('/', async (req, res) => {
-	res.send("backend api run on server...1");
+	res.send("backend api run on server...");
 });
 
 app.listen(port, () => {
